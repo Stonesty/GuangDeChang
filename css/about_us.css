@@ -1,0 +1,19 @@
+.main>.content{
+	width: 864px;
+	margin-top: 15px;
+	margin-bottom: 36px;
+}
+
+.main>.content>img{
+	width: 785px;
+	height: 524px;
+	margin: 33px 39.5px 0;
+}
+.main>.content>p{
+	text-align:justify; 
+	text-justify:inter-ideograph;
+	text-indent: 3em;
+	letter-spacing: 6px;
+	margin-top: 37px;
+	font-size: 10px;
+}

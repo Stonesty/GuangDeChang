@@ -1,0 +1,41 @@
+.banner{
+	width: 100%;
+    height: 599px;
+	position: relative;
+	overflow: hidden;
+}
+.banner>img{
+	width: 1920px;
+	display: none;
+	position: absolute;
+	left: 50%;
+	margin-left: -960px;
+	
+}
+.banner>img:first-child{
+	display: block;
+}
+.banner>ul{
+	width: 150px;
+	height: 18px;
+	position: absolute;
+	left: 50%;
+	margin-left: -74px;
+	bottom: 31px;
+}
+.banner>ul>li{
+	float: left;
+	margin-right: 48px;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background: #FFECCB;
+}
+.banner>ul>li:last-child{
+	margin: 0;
+}
+.banner>ul>li.on,
+.banner>ul>li:hover{
+	background: 	#E60012;
+	cursor: pointer;
+}

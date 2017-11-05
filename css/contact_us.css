@@ -1,0 +1,104 @@
+/*首页联系我们*/
+.main>.content{
+	width: 1200px;
+	margin-top: 50px;
+	overflow: hidden;
+	margin-bottom: 77px;
+}
+.main>.content>img{
+	margin-right: 64px;
+	float: left;
+}
+.main>.content>form{
+	overflow: hidden;
+}
+.main>.content>form>table{
+	float: left;
+	height: 435px;
+
+}
+.main>.content>form>table tr{
+	width: 430px;
+	display:block;
+		margin-bottom: 16px;
+}
+.main>.content>form>table td textarea,
+.main>.content>form>table td input{
+	width: 344px;
+	height: 39px;
+	display: inline-block;
+	border: 1px solid #959595;
+
+
+}
+.main>.content>form>table td {
+	margin-right: 9px;
+	font-size: 19px;
+}
+.main>.content>form>table td input[name=name]{
+	width: 119px;
+	margin-right: 20px;
+}
+.main>.content>form>table td input[name=tele]{
+	width: 148px;
+}
+.main>.content>form>table td input[name=code]{
+	width: 93px;
+	height: 38px;
+	float: left;
+		border-right:none ;
+}
+.main>.content>form>table td textarea{
+	width: 346px;
+	height: 158px;
+}
+.main>.content>form>table td input[type=submit],
+.main>.content>form>table td input[type=reset]{
+	width: 79px;
+	height: 39px;
+	line-height: 39px;
+	margin-right: 122px;
+	font-size: 30px;
+}
+.main>.content>form>table td input[type=submit]{
+
+	background: #04A1A1;
+	color: white;
+}
+.main>.content>form>table td input[type=reset]{
+	background: #FCFEFF;
+}
+.main>.content>form>table td img{
+	width: 95px;
+	height: 38px;
+	border: 1px solid #959595;
+	border-left:none ;
+}
+.main>.content>ul{
+	margin-top: 50px;
+}
+.main>.content>ul>li{
+	margin-top: 47px;
+	
+}
+.main>.content>ul>li>img{
+	width: 43px;
+	margin-left: 5px;
+	margin-right: 8px;
+	margin-bottom: 10px;
+	/*float: left;*/
+}
+.main>.content>ul>li>span{
+	display: inline-block;
+	font-size: 18px;
+	height: 37px;
+	line-height: 50px;
+	color: #333333;
+}
+.main>.content>ul>li>p{
+	margin-left: 10px;
+	color: #666666;
+}
+.main>.content>ul>li>p:first{
+	background: red;
+}

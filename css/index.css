@@ -1,0 +1,234 @@
+.main{
+	margin-top: 76px;
+}
+/*首页关于我们*/
+.main>.about_us>.content{
+	width: 1200px;
+	margin-top: 37px;
+	overflow: hidden;
+}
+.main>.news>.content>img,
+.main>.about_us>.content>img{
+	float: left;
+	width: 528px;
+	height: 352px;
+	margin: 0px 31px 0 39px;
+}
+.main>.about_us>.content>p{
+	text-align:justify; text-justify:inter-ideograph;
+	float: left;
+	width: 572px;
+	height: 333px;
+	font-size: 14px;
+	text-indent: 2em;
+	letter-spacing: 0.3px;
+	line-height: 22px;
+}
+.main>.about_us>.content>a{
+	float: right;
+	margin-right: 30px;
+	width: 57px;
+	height: 18px;
+	background: white;
+	border-radius: 5px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 18px;
+	border: 1px solid #A0A0A0;
+}
+/*首页新闻中心*/
+.main>.news{
+	margin-top: 65px;
+}
+.main>.news>.content{
+	width: 1200px;
+	margin-top: 56px;
+	overflow: hidden;
+}
+
+.main>.news>.content>ul{
+	width: 572px;
+	height: 350px;
+	float: left;
+}
+.main>.news>.content>ul>li{
+height: 32.5px;
+line-height: 32.5px;
+border-bottom: 1px dashed black;
+
+}
+
+.main>.news>.content>ul>li:first-child{
+	background: #B8FFFF;
+	height: 35px;
+	line-height: 35px;
+	border: none;
+}
+.main>.news>.content>ul>li:first-child>a{
+	float: right;
+	font-size: 12px;
+	color: #999999;
+}
+.main>.news>.content>ul>li:first-child+li{
+	height: 24px;
+	line-height: 24px;
+	color: red;
+}
+.main>.news>.content>ul>li:first-child+li>a{
+	color: red;
+}
+.main>.news>.content>ul>li>img{
+    margin-right: 4px;
+}
+.main>.news>.content>ul>li>a{
+	font-size: 14px;
+	
+}
+.main>.news>.content>ul>li>span{
+	float: right;
+	margin-right: 7px;
+}
+
+/*首页产品中心*/
+
+.main>.product:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.main>.product{
+	margin-top: 49px;
+}
+.main>.product>.content{
+	margin-top: 47px;
+	position: relative;
+}
+.main>.product>.content>img{
+	width: 1920px;
+	height: 539px;
+	position: absolute;
+	left: 50%;
+	margin-left: -960px;
+	z-index: -999999999;
+}
+.main>.product>.content>ul{
+	padding: 34px 0 0px;
+	width: 1244px;
+	height: 535px;
+	margin: 0 auto;
+}
+.main>.product>.content>ul>li{
+	float: left;
+	width: 273px;
+	margin-right: 38px;
+	margin-bottom: 16px;
+	overflow: hidden;
+}
+.main>.product>.content>ul>li>a>img{
+	width: 273px;
+	height: 203px;
+}
+.main>.product>.content>ul>li>a{
+	display: block;
+	position: relative;
+}
+.main>.product>.content>ul>li>a>span{
+	position: absolute;
+	width: 273px;
+	height: 203px;
+	display: block;
+	top: 0;
+	display: none;
+}
+.main>.product>.content>ul>li>a>span>img{
+	width: 273px;
+	height: 203px;
+}
+.main>.product>.content>ul>li>a:hover span{
+	display: block;
+}
+.main>.product>.content>ul>li>a>h5{
+	height: 33px;
+	line-height: 33px;
+	font-size: 18px;
+	background: #9DCFE9;
+	color: white;
+	text-align: center;
+}
+/*首页联系我们*/
+.main>.contact_us{
+	margin-top: 55px;
+}
+.main>.contact_us>.content{
+	width: 1200px;
+	/*background: red;*/
+	margin-top: 50px;
+	overflow: hidden;
+}
+.main>.contact_us>.content>img{
+	margin-right: 64px;
+	margin-bottom: 107px;
+	float: left;
+}
+.main>.contact_us>.content>form>table{
+	float: left;
+	height: 435px;
+
+}
+.main>.contact_us>.content>form>table tr{
+	width: 430px;
+	display:block;
+		margin-bottom: 16px;
+}
+.main>.contact_us>.content>form>table td textarea,
+.main>.contact_us>.content>form>table td input{
+	width: 344px;
+	height: 39px;
+	display: inline-block;
+	border: 1px solid #959595;
+
+
+}
+.main>.contact_us>.content>form>table td {
+	margin-right: 9px;
+	font-size: 19px;
+}
+.main>.contact_us>.content>form>table td input[name=name]{
+	width: 119px;
+	margin-right: 20px;
+}
+.main>.contact_us>.content>form>table td input[name=tele]{
+	width: 148px;
+}
+.main>.contact_us>.content>form>table td input[name=code]{
+	width: 93px;
+	height: 38px;
+	float: left;
+		border-right:none ;
+}
+.main>.contact_us>.content>form>table td textarea{
+	width: 346px;
+	height: 158px;
+}
+.main>.contact_us>.content>form>table td input[type=submit],
+.main>.contact_us>.content>form>table td input[type=reset]{
+	width: 79px;
+	height: 39px;
+	line-height: 39px;
+	margin-right: 122px;
+	font-size: 30px;
+}
+.main>.contact_us>.content>form>table td input[type=submit]{
+
+	background: #04A1A1;
+	color: white;
+}
+.main>.contact_us>.content>form>table td input[type=reset]{
+	background: #FCFEFF;
+}
+.main>.contact_us>.content>form>table td img{
+	width: 95px;
+	height: 38px;
+	border: 1px solid #959595;
+	border-left:none ;
+}

@@ -1,0 +1,286 @@
+/*公共样式--开始*/
+:focus{outline：none}
+a:focus{outline：none}
+html,
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+form,
+input,
+textarea,
+th,
+td,
+select {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	min-height: 100%;
+		overflow-x: hidden;
+
+}
+
+body {
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+	color: #232323;
+}
+
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+input,
+textarea {
+	outline: none;
+	border: none;
+}
+
+textarea {
+	resize: none;
+	overflow: auto;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	content: ".";
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+.tl {
+	text-align: left;
+}
+
+.tc {
+	text-align: center
+}
+
+.tr {
+	text-align: right;
+}
+
+.ellipse {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.inline {
+	display: inline-block;
+	display: inline;
+	zoom: 1;
+}
+
+
+/*公共样式--结束*/
+/*头部开始*/
+.header{
+	/*width: 1920px;*/
+	height: 147px;
+	background: white;
+}
+.header>.top{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.header>.top>a>img{
+	margin-top: 3px;
+	float: left;
+}
+.header>.top>p{
+	margin-top: 9px;
+	float: right;
+}
+.header>.top>p:last-child{
+	margin-top: 34px;
+	position: absolute;
+	right: 0;
+}
+/*选项卡*/
+.header>.bottom{
+	margin-top: 13px;
+	height: 68px;
+	background: #0A7DC8;
+	position: relative;
+}
+.header>.bottom>ul{
+	width: 1200px;
+	height: 78px;
+	margin: 0 auto;
+}
+.header>.bottom>ul>li{
+	float: left;
+	width: 240px;
+	height: 68px;
+	text-align: center;
+	line-height: 68px;
+	position: relative;
+}
+.header>.bottom>ul>li>a{
+	display: block;
+	color: white;
+	width: 100%;
+	position: absolute;
+}
+.header>.bottom>ul>li>a.on,
+.header>.bottom>ul>li:hover a{
+	background: #8AFFD4;
+	color: red;
+	height: 78px;
+	top: -10px;
+	line-height: 88px;
+	box-shadow: 2px 2px 2px black;
+}
+/*头部结束*/
+/*主体开始*/
+/*主体结束*/
+/*标题样式开始*/
+.main>div.title,
+.main>div{
+	width: 100%;
+	width: 1200px;
+	margin-bottom: 10px;
+	margin: 0 auto 10px;
+}
+.main>div.title>h2,
+.main>div>h2{
+	float: left;
+	position: relative;
+}
+.main>div.title>h2:before,
+.main>div.title>h2:after,
+.main>div>h2:before,
+.main>div>h2:after{
+	position: absolute;
+	
+}
+.main>div.title>h2:before,
+.main>div>h2:before{
+	content: '';
+	top: -1px;
+	right: 0;
+	width: 485px;
+	border-top: 1px solid #0A7DC8;
+}
+.main>div.title>h2:after,
+.main>div>h2:after{
+	content: '';
+	top: 48px;
+	left: 0;
+	width: 1560px;
+	border-bottom: 1px solid #76B168;
+}
+.main>div.title>h2,
+.main>div>h2{
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	margin-right: 10px;
+	border: 1px solid black;
+	border-left-color: #0A7DC8;
+	border-top-color: #0A7DC8;
+	border-right-color: #76B168;
+	border-bottom-color: #76B168;
+		width: 123px;
+		text-align: center;
+
+}
+.main>div.title>span,
+.main>div>span{
+	height: 50px;
+	display: block;
+	font-size: 20px;
+	line-height: 60px;
+}
+/*标题样式结束*/
+
+
+
+/*尾部开始*/
+
+.footer{
+	height: 100px;
+	background: #7ECEF4;
+	overflow: hidden;
+}
+.footer>p{
+	text-align: center;
+	font-size: 14px;
+	height: 14px;
+	margin: 0 auto;
+	color: white;
+}
+.footer>p:first-child{
+	width: 501px;
+	margin-top:20px ;
+}
+
+.footer>p:first-child+p{
+	margin-top:10px ;
+	/*background: red;*/
+}
+.footer>p:last-child{
+	margin-top:9px ;
+}
+/*尾部结束*/

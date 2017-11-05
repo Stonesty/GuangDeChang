@@ -1,0 +1,51 @@
+.main>.content{
+	width: 1200px;
+	margin-top: 68px;
+	margin-bottom: 102px;
+}
+.main>.content>ul{
+	width: 1200px;
+}
+.main>.content>ul>li{
+	margin-right: 66.5px;
+}
+.main>.content>ol{
+	margin-top: 13px;
+	overflow: hidden;
+}
+.main>.content>ol>li{
+	width: 250px;
+	height: 250px;
+	margin-left: 64px;
+	margin-top: 66px;
+	float: left;
+	position: relative;
+}
+.main>.content>ol>li>a{
+	display: block;
+}
+.main>.content>ol>li>a>span{
+	position: absolute;
+	top: 0;
+	display: none;
+}
+.main>.content>ol>li>a>h5{
+	position: absolute;
+	bottom: 0;
+	width:250px;
+	height:58px; 
+	background:rgba(125,125,125,0.79);
+	line-height: 58px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+.main>.content>ol>li>a:hover span{
+	display: block;
+}
+.main>.content>ol>li:first-child,
+.main>.content>ol>li:first-child+li+li+li+li,
+.main>.content>ol>li:first-child+li+li+li+li+li+li+li+li
+{
+	margin-left: 0;
+}

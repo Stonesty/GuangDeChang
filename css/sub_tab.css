@@ -1,0 +1,28 @@
+.main>.content>ul{
+	width: 864px;
+	height: 50px;
+	margin: 0 auto;
+}
+.main>.content>ul>li{
+	float: left;
+	width: 250px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #7ECEF4;
+	margin-right: 57px;
+}
+.main>.content>ul>li:last-child{
+	margin: 0;
+}
+.main>.content>ul>li>a{
+	display: block;
+	font-size: 18px;
+	color: white;
+}
+.main>.content>ul>li>a.on,
+.main>.content>ul>li>a:hover{
+	background: #007EFF;
+	color: #00E4FF;
+}
+
